@@ -1,7 +1,0 @@
-{
-  "name": "zijian18-api",
-  "private": true,
-  "devDependencies": {
-    "wrangler": "^4.0.0"
-  }
-}
