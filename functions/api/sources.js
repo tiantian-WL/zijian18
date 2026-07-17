@@ -1,22 +1,16 @@
-export async function onRequest() {
+export async function onRequest(context) {
 
-  const data = {
-    code: 1,
-    msg: "ok",
-    data: [
-      {
-        name: "155资源",
-        type: "api",
-        api: "https://155api.com/api.php/provide/vod"
-      }
-    ]
-  };
+  const response = await context.env.ASSETS.fetch(
+    new Request("https://fake/config/sources.json")
+  );
+
+  const data = await response.json();
 
   return new Response(
     JSON.stringify(data),
     {
-      headers:{
-        "content-type":"application/json;charset=UTF-8"
+      headers: {
+        "content-type": "application/json;charset=UTF-8"
       }
     }
   );
