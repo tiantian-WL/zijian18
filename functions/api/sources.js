@@ -1,11 +1,19 @@
-export async function onRequest(context) {
+export async function onRequest() {
+
+  const sources = {
+    code: 1,
+    msg: "ok",
+    data: [
+      {
+        name: "155资源",
+        type: "api",
+        api: "https://155api.com/api.php/provide/vod"
+      }
+    ]
+  };
 
   return new Response(
-    JSON.stringify({
-      code: 1,
-      msg: "OK影视接口运行成功",
-      data: []
-    }),
+    JSON.stringify(sources),
     {
       headers:{
         "content-type":"application/json;charset=UTF-8"
