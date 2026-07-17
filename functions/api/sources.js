@@ -1,8 +1,11 @@
 export async function onRequest(context) {
 
-  const response = await context.env.ASSETS.fetch(
-    new Request("https://fake/config/sources.json")
+  const url = new URL(
+    "/config/sources.json",
+    context.request.url
   );
+
+  const response = await fetch(url);
 
   const data = await response.json();
 
@@ -10,7 +13,8 @@ export async function onRequest(context) {
     JSON.stringify(data),
     {
       headers: {
-        "content-type": "application/json;charset=UTF-8"
+        "content-type": "application/json;charset=UTF-8",
+        "cache-control": "no-cache"
       }
     }
   );
