@@ -1,6 +1,6 @@
 export async function onRequest() {
 
-  const sources = {
+  const data = {
     code: 1,
     msg: "ok",
     data: [
@@ -13,7 +13,7 @@ export async function onRequest() {
   };
 
   return new Response(
-    JSON.stringify(sources),
+    JSON.stringify(data),
     {
       headers:{
         "content-type":"application/json;charset=UTF-8"
