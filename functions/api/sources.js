@@ -15,6 +15,8 @@ export async function onRequest() {
     type:"api",
     api:"https://cj.ffzyapi.com/api.php/provide/vod"
    },
+{name: "🔞奶香香", address: "https://naixxzy.com/api.php/provide/vod"},
+      
       
       {
         name: "CK资源",
