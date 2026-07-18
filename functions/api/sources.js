@@ -1,13 +1,21 @@
-export async function onRequest(context) {
+export async function onRequest() {
 
-  const url = new URL(
-    "/config/sources.json",
-    context.request.url
-  );
-
-  const response = await fetch(url);
-
-  const data = await response.json();
+  const data = {
+    code: 1,
+    msg: "ok",
+    data: [
+      {
+        name: "155资源",
+        type: "api",
+        api: "https://155api.com/api.php/provide/vod"
+      },
+      {
+        name: "CK资源",
+        type: "api",
+        api: "https://ckzy.me/api.php/provide/vod"
+      }
+    ]
+  };
 
   return new Response(
     JSON.stringify(data),
