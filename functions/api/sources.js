@@ -15,7 +15,10 @@ export async function onRequest() {
     type:"api",
     api:"https://cj.ffzyapi.com/api.php/provide/vod"
    },
-{name: "🔞奶香香", address: "https://naixxzy.com/api.php/provide/vod"},
+{
+  name: "🔞奶香香", 
+  type:"api",
+  api: "https://naixxzy.com/api.php/provide/vod"},
       
       
       {
