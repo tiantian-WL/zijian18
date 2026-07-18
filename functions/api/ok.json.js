@@ -1,33 +1,24 @@
-export async function onRequest() {
+export async function onRequest(context) {
 
-  const data = {
-    sites: [
-      {
-        key: "155",
-        name: "155资源",
-        type: 1,
-        api: "https://155api.com/api.php/provide/vod",
-        playUrl: "",
-        search: 1
-      },
-      {
-        key: "ck",
-        name: "CK资源",
-        type: 1,
-        api: "https://ckzy.me/api.php/provide/vod",
-        playUrl: "",
-        search: 1
-      }
-    ]
-  };
+  // 读取 sources 接口
+  const url = new URL("/api/sources", context.request.url);
 
-  return new Response(
-    JSON.stringify(data),
-    {
-      headers: {
-        "content-type": "application/json;charset=UTF-8"
-      }
-    }
-  );
+  const res = await fetch(url);
+
+  const json = await res.json();
+
+  // 转换成 OK影视需要的 sites 格式
+  const sites = json.data.map((item,index)=>({
+      key:"site"+index,
+      name:item.name,
+      type:1,
+      api:item.api,
+      playUrl:"",
+      search:1
+  }));
+
+  return Response.json({
+      sites
+  });
 
 }
