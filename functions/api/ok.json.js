@@ -9,6 +9,14 @@ export async function onRequest() {
         api: "https://155api.com/api.php/provide/vod",
         playUrl: "",
         search: 1
+      },
+      {
+        key: "ck",
+        name: "CK资源",
+        type: 1,
+        api: "https://ckzy.me/api.php/provide/vod",
+        playUrl: "",
+        search: 1
       }
     ]
   };
@@ -16,8 +24,8 @@ export async function onRequest() {
   return new Response(
     JSON.stringify(data),
     {
-      headers:{
-        "content-type":"application/json;charset=UTF-8"
+      headers: {
+        "content-type": "application/json;charset=UTF-8"
       }
     }
   );
