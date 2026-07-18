@@ -9,6 +9,13 @@ export async function onRequest() {
         type: "api",
         api: "https://155api.com/api.php/provide/vod"
       },
+
+   {
+    name:"非凡资源",
+    type:"api",
+    api:"https://cj.ffzyapi.com/api.php/provide/vod"
+   },
+      
       {
         name: "CK资源",
         type: "api",
