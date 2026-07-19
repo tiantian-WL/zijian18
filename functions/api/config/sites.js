@@ -15,7 +15,7 @@ export const sites = [
     type: "api",
     api: "https://ckzy.me/api.php/provide/vod",
     order: 2,
-    enable: true
+    enable: false
   },
 
   {
