@@ -1,4 +1,4 @@
-import { sites } from "./config/sites";
+import { sites } from "../../config/sites";
 
 export async function onRequest() {
 
