@@ -1,24 +1,18 @@
-export async function onRequest(context) {
+import { sites } from "./config/sites";
 
-  // 读取 sources 接口
-  const url = new URL("/api/sources", context.request.url);
+export async function onRequest() {
 
-  const res = await fetch(url);
-
-  const json = await res.json();
-
-  // 转换成 OK影视需要的 sites 格式
-  const sites = json.data.map((item,index)=>({
-      key:"site"+index,
-      name:item.name,
-      type:1,
-      api:item.api,
-      playUrl:"",
-      search:1
+  const okSites = sites.map(site => ({
+    key: site.key,
+    name: site.name,
+    type: 1,
+    api: site.api,
+    playUrl: "",
+    search: 1
   }));
 
   return Response.json({
-      sites
+    sites: okSites
   });
 
 }
