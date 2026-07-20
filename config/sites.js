@@ -19,9 +19,9 @@ enable:true
 },
 {
 key:"tg",
-name:"tg资源",
+name:"奶香香",
 type:"api",
-api:"https://tgzyz.pp.ua/api.php/provide/vod",
+api:"https://lbapi9.com/api.php/provide/vod",
 order:16,
 enable:true
 },
