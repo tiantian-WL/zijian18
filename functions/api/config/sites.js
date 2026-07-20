@@ -16,6 +16,14 @@ export const sites = [
     enable: true
   },
   {
+  key: "lz",
+  name: "量子资源",
+  type: "api",
+  api: "https://cj.lziapi.com/api.php/provide/vod",
+  order: 4,
+  enable: true
+},
+  {
     key: "ff",
     name: "非凡资源",
     type: "api",
