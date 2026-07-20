@@ -17,7 +17,14 @@ api:"https://ckzy.me/api.php/provide/vod",
 order:2,
 enable:true
 },
-
+{
+key:"tg",
+name:"tg资源",
+type:"api",
+api:"https://tgzyz.pp.ua/api.php/provide/vod",
+order:16,
+enable:true
+},
 
 {key:"tgzy", name:"TG资源", type:"api", api:"https://tgzyz.pp.ua/api.php/provide/vod", order:11, enable:true },
   { key:"ynzy", name:"越南", type:"api", api:"https://vnzyz.com/api.php/provide/vod", order:12, enable:true }, 
