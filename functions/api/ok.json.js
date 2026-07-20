@@ -33,7 +33,7 @@ export async function onRequest(context) {
     .map(item => ({
       key: item.key,
       name: item.name,
-      url: item.file
+      url: https://zijian18.pages.dev/item.file
     }));
 
 
