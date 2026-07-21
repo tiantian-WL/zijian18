@@ -7,12 +7,28 @@ export const sites = [
   order: 0,
   enable: true
   },
+ {
+ key:"cmjh",
+ name:"🔞关注裤佬TG频道@stymei✈️",
+ type:"api",
+ api:"https://19q.cc/api.php/provide/vod",
+ order:1,
+ enable:true
+ },
+  {
+key:"tg",
+name:"🔞奶香香",
+type:"api",
+api:"https://lbapi9.com/api.php/provide/vod",
+order:2,
+enable:true
+},
   {
     key: "155",
     name: "🔞155资源",
     type: "api",
     api: "https://155api.com/api.php/provide/vod",
-    order: 1,
+    order: 3,
     enable: true
   },
   {
@@ -20,53 +36,11 @@ export const sites = [
     name: "🔞CK资源",
     type: "api",
     api: "https://ckzy.me/api.php/provide/vod",
-    order: 2,
+    order: 4,
     enable: true
   },
   
-  {
-key:"tg",
-name:"🔞奶香香",
-type:"api",
-api:"https://lbapi9.com/api.php/provide/vod",
-order:3,
-enable:true
-},
-
-
-
-{
-key:"cmjh",
-name:"✈️关注裤佬TG频道@stymei",
-type:"api",
-api:"https://19q.cc/api.php/provide/vod",
-order:4,
-enable:true
-},
-{
-key:"tgzy",
-name:"🔞TG资源",
-type:"api",
-api:"https://tgzyz.pp.ua/api.php/provide/vod",
-order:46,
-enable:true
-},
-{
-key:"ynzy",
-name:"🔞越南",
-type:"api",
-api:"https://vnzyz.com/api.php/provide/vod",
-order:47,
-enable:true
-},
-{
-key:"askzy",
-name:"🔞奥斯卡",
-type:"api",
-api:"https://aosikazy4.com/api.php/provide/vod",
-order:48,
-enable:true
-},
+  
 {
 key:"xxbzy",
 name:"🔞X细胞",
@@ -396,6 +370,30 @@ order:45,
 enable:true
 },
 
+{
+key:"tgzy",
+name:"🔞TG资源",
+type:"api",
+api:"https://tgzyz.pp.ua/api.php/provide/vod",
+order:46,
+enable:true
+},
+{
+key:"ynzy",
+name:"🔞越南",
+type:"api",
+api:"https://vnzyz.com/api.php/provide/vod",
+order:47,
+enable:true
+},
+{
+key:"askzy",
+name:"🔞奥斯卡",
+type:"api",
+api:"https://aosikazy4.com/api.php/provide/vod",
+order:48,
+enable:true
+},
 
   {
     key: "ff",
