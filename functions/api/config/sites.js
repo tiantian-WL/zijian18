@@ -9,7 +9,7 @@ export const sites = [
   },
   {
     key: "155",
-    name: "155资源",
+    name: "🔞155资源",
     type: "api",
     api: "https://155api.com/api.php/provide/vod",
     order: 1,
@@ -17,7 +17,7 @@ export const sites = [
   },
   {
     key: "ck",
-    name: "CK资源",
+    name: "🔞CK资源",
     type: "api",
     api: "https://ckzy.me/api.php/provide/vod",
     order: 2,
@@ -26,193 +26,377 @@ export const sites = [
   
   {
 key:"tg",
-name:"奶香香",
+name:"🔞奶香香",
 type:"api",
 api:"https://lbapi9.com/api.php/provide/vod",
 order:3,
 enable:true
 },
 
-{key:"tgzy", 
- name:"TG资源", 
- type:"api", 
- api:"https://tgzyz.pp.ua/api.php/provide/vod", 
- order:46, 
- enable:true },
-{ key:"ynzy", 
- name:"越南", 
- type:"api", 
- api:"https://vnzyz.com/api.php/provide/vod", 
- order:47, 
- enable:true }, 
-{ key:"askzy", 
- name:"奥斯卡", 
- type:"api", 
- api:"https://aosikazy4.com/api.php/provide/vod", 
- order:48, 
- enable:true }, 
-{ key:"xxbzy", 
- name:"X细胞", 
- type:"api", 
- api:"https://www.xxibaozyw.com/api.php/provide/vod", 
- order:4, 
- enable:true }, 
-{ key:"91av", 
- name:"91AV", 
- type:"api", 
- api:"https://91av.cyou/api.php/provide/vod", 
- order:5, 
- enable:true }, 
-{ key:"91jp", 
- name:"91精品", 
- type:"api", 
- api:"https://91jpzyw.com/api.php/provide/vod/at/json", 
- order:6, 
- enable:true }, 
-{ key:"xjzy", 
-  name:"小鸡", 
-  type:"api", 
-  api:"https://api.xiaojizy.live/provide/vod", 
-  order:7, 
-  enable:true }, 
-{ key:"dnzzy", 
- name:"大奶子", 
- type:"api", 
- api:"https://apidanaizi.com/api.php/provide/vod", 
- order:8, 
- enable:true }, 
-{ key:"ddzy", 
- name:"滴滴", 
- type:"api", 
- api:"https://api.ddapi.cc/api.php/provide/vod", 
- order:9, 
- enable:true }, 
-{ key:"jkzy", 
-   name:"鸡坤", 
-   type:"api", 
-   api:"https://jkunzyapi.com/api.php/provide/vod", 
-   order:10, 
-   enable:true },
-  {
-key:"ysjzy",
-name:"淫水机",
+
+
+{
+key:"cmjh",
+name:"✈️关注裤佬TG频道@stymei",
 type:"api",
-api:"https://www.xrbsp.com/api/json.php",
+api:"https://19q.cc/api.php/provide/vod",
+order:4,
+enable:true
+},
+{
+key:"tgzy",
+name:"🔞TG资源",
+type:"api",
+api:"https://tgzyz.pp.ua/api.php/provide/vod",
+order:46,
+enable:true
+},
+{
+key:"ynzy",
+name:"🔞越南",
+type:"api",
+api:"https://vnzyz.com/api.php/provide/vod",
+order:47,
+enable:true
+},
+{
+key:"askzy",
+name:"🔞奥斯卡",
+type:"api",
+api:"https://aosikazy4.com/api.php/provide/vod",
+order:48,
+enable:true
+},
+{
+key:"xxbzy",
+name:"🔞X细胞",
+type:"api",
+api:"https://www.xxibaozyw.com/api.php/provide/vod",
+order:5,
+enable:true
+},
+{
+key:"91av",
+name:"🔞91AV",
+type:"api",
+api:"https://91av.cyou/api.php/provide/vod",
+order:6,
+enable:true
+},
+{
+key:"91jp",
+name:"🔞91精品",
+type:"api",
+api:"https://91jpzyw.com/api.php/provide/vod/at/json",
+order:7,
+enable:true
+},
+{
+key:"xjzy",
+name:"🔞小鸡",
+type:"api",
+api:"https://api.xiaojizy.live/provide/vod",
+order:8,
+enable:true
+},
+{
+key:"dnzzy",
+name:"🔞大奶子",
+type:"api",
+api:"https://apidanaizi.com/api.php/provide/vod",
+order:9,
+enable:true
+},
+{
+key:"ddzy",
+name:"🔞滴滴",
+type:"api",
+api:"https://api.ddapi.cc/api.php/provide/vod",
+order:10,
+enable:true
+},
+{
+key:"jkzy",
+name:"🔞鸡坤",
+type:"api",
+api:"https://jkunzyapi.com/api.php/provide/vod",
 order:11,
 enable:true
 },
 {
-key:"xnezy",
-name:"香奶儿",
+key:"ysjzy",
+name:"🔞淫水机",
 type:"api",
-api:"https://www.gdlsp.com/api/json.php",
+api:"https://www.xrbsp.com/api/json.php",
 order:12,
 enable:true
 },
 {
-key:"jpxzy",
-name:"精品X",
+key:"xnezy",
+name:"🔞香奶儿",
 type:"api",
-api:"https://www.jingpinx.com/api.php/provide/vod",
+api:"https://www.gdlsp.com/api/json.php",
 order:13,
 enable:true
 },
 {
-key:"lsbzy",
-name:"老色p",
+key:"jpxzy",
+name:"🔞精品X",
 type:"api",
-api:"https://apilsbzy1.com/api.php/provide/vod",
+api:"https://www.jingpinx.com/api.php/provide/vod",
 order:14,
 enable:true
 },
 {
-key:"fhzy",
-name:"番号",
+key:"lsbzy",
+name:"🔞老色p",
 type:"api",
-api:"http://fhapi9.com/api.php/provide/vod",
+api:"https://apilsbzy1.com/api.php/provide/vod",
 order:15,
 enable:true
 },
 {
-key:"hsckzy",
-name:"黄色仓库",
+key:"fhzy",
+name:"🔞番号",
 type:"api",
-api:"https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json",
+api:"http://fhapi9.com/api.php/provide/vod",
 order:16,
 enable:true
 },
 {
-key:"bhzy",
-name:"百花",
+key:"hsckzy",
+name:"🔞黄色仓库",
 type:"api",
-api:"https://bhziyuan.com/api.php/provide/vod/?ac=list",
+api:"https://hsckzy888.com/api.php/provide/vod/from/hsckm3u8/at/json",
 order:17,
 enable:true
 },
 {
-key:"yyzy",
-name:"优异",
+key:"bhzy",
+name:"🔞百花",
 type:"api",
-api:"https://a.uezy.pw/api.php/provide/vod",
+api:"https://bhziyuan.com/api.php/provide/vod/?ac=list",
 order:18,
 enable:true
 },
 {
-key:"ljzy",
-name:"辣椒",
+key:"yyzy",
+name:"🔞优异",
 type:"api",
-api:"http://lajiaozy.com/api.php/provide/vod",
+api:"https://a.uezy.pw/api.php/provide/vod",
 order:19,
 enable:true
 },
 {
-key:"bpzy",
-name:"白嫖",
+key:"ljzy",
+name:"🔞辣椒",
 type:"api",
-api:"https://www.kxgav.com/api/json.php",
+api:"http://lajiaozy.com/api.php/provide/vod",
 order:20,
 enable:true
 },
 {
-key:"msnzy",
-name:"美少女",
+key:"bpzy",
+name:"🔞白嫖",
 type:"api",
-api:"https://www.msnii.com/api/xml.php",
+api:"https://www.kxgav.com/api/json.php",
 order:21,
 enable:true
 },
 {
-key:"155zy",
-name:"155",
+key:"msnzy",
+name:"🔞美少女",
 type:"api",
-api:"https://155api.com/api.php/provide/vod",
+api:"https://www.msnii.com/api/xml.php",
 order:22,
 enable:true
 },
 {
-key:"xbzy",
-name:"杏吧",
+key:"155zy",
+name:"🔞155",
 type:"api",
-api:"https://xingba111.com/api.php/provide/vod/?ac=list",
+api:"https://155api.com/api.php/provide/vod",
 order:23,
 enable:true
 },
 {
-key:"ddzy_new",
-name:"大地",
+key:"xbzy",
+name:"🔞杏吧",
 type:"api",
-api:"https://dadiapi.com/api.php",
+api:"https://xingba111.com/api.php/provide/vod/?ac=list",
 order:24,
 enable:true
 },
 {
-key:"ytzy",
-name:"玉兔",
+key:"ddzy_new",
+name:"🔞大地",
 type:"api",
-api:"https://apiyutu.com/api.php/provide/vod",
+api:"https://dadiapi.com/api.php",
 order:25,
 enable:true
 },
+{
+key:"ytzy",
+name:"🔞玉兔",
+type:"api",
+api:"https://apiyutu.com/api.php/provide/vod",
+order:26,
+enable:true
+},
+{
+key:"alvinzy",
+name:"🔞AIvin",
+type:"api",
+api:"http://lbapiby.com/api.php/provide/vod/at/json",
+order:27,
+enable:true
+},
+{
+key:"slyzy",
+name:"🔞湿乐园",
+type:"api",
+api:"https://xxavs.com/api.php/provide/vod",
+order:28,
+enable:true
+},
+{
+key:"lbzy",
+name:"🔞乐播",
+type:"api",
+api:"https://lbapi9.com/api.php/provide/vod",
+order:29,
+enable:true
+},
+{
+key:"nxxzy",
+name:"🔞奶香香",
+type:"api",
+api:"https://naixxzy.com/api.php/provide/vod",
+order:30,
+enable:true
+},
+{
+key:"havzy",
+name:"🔞黄AV",
+type:"api",
+api:"https://www.pgxdy.com/api/xml.php",
+order:31,
+enable:true
+},
+{
+key:"slzy",
+name:"🔞森林",
+type:"api",
+api:"http://slapibf.com/api.php/provide/vod",
+order:32,
+enable:true
+},
+{
+key:"fqzy",
+name:"🔞番茄",
+type:"api",
+api:"https://fqzy.me//api.php/provide/vod/?ac=list",
+order:33,
+enable:true
+},
+{
+key:"souav",
+name:"🔞souav",
+type:"api",
+api:"https://souavzy7.com/api.php/provide/vod",
+order:34,
+enable:true
+},
+{
+key:"syzy",
+name:"🔞鲨鱼",
+type:"api",
+api:"https://shayuapi.com/api.php/provide/vod",
+order:35,
+enable:true
+},
+{
+key:"91md",
+name:"🔞91麻豆",
+type:"api",
+api:"http://91md.me/api.php/provide/vod",
+order:36,
+enable:true
+},
+{
+key:"xzyzy",
+name:"🔞幸资源",
+type:"api",
+api:"https://xzybb1.com/api.php/provide/vod",
+order:37,
+enable:true
+},
+{
+key:"ckbh",
+name:"🔞CK百货",
+type:"api",
+api:"https://ckbh1.xyz/api.php/provide/vod/?ac=list",
+order:38,
+enable:true
+},
+{
+key:"thzy",
+name:"🔞桃花",
+type:"api",
+api:"https://thzy1.me/api.php/provide/vod/?ac=list",
+order:39,
+enable:true
+},
+{
+key:"swzy",
+name:"🔞丝袜",
+type:"api",
+api:"https://www.siwazyw.tv/api.php/provide/vod/at/json",
+order:40,
+enable:true
+},
+{
+key:"ddzy2",
+name:"🔞豆豆",
+type:"api",
+api:"https://doudouzy.com/api.php/provide/vod/?ac=list",
+order:41,
+enable:true
+},
+{
+key:"smzy",
+name:"🔞色猫",
+type:"api",
+api:"http://caiji.semaozy.net/inc/apijson_vod.php",
+order:42,
+enable:true
+},
+{
+key:"hlxzy",
+name:"🔞黑料X",
+type:"api",
+api:"https://www.heiliaozyapi.com/api.php/provide/vod/?ac=list",
+order:43,
+enable:true
+},
+{
+key:"xjzyw",
+name:"🔞香蕉",
+type:"api",
+api:"https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list",
+order:44,
+enable:true
+},
+{
+key:"bwzy",
+name:"🔞百万",
+type:"api",
+api:"https://api.bwzyz.com/api.php/provide/vod/at/json",
+order:45,
+enable:true
+},
+
+
   {
     key: "ff",
     name: "非凡资源",
