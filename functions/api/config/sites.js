@@ -17,11 +17,11 @@ export const sites = [
  },
 
 {
-key:"xcaiji",
+key:"xcaiji23",
 name:"🔞X采集",
 type:"api",
 api:"https://www.jingpinx.com/api.php/provide/vod/at/xml",
-order:10,
+order:100,
 enable:true
 },
 
