@@ -25,7 +25,14 @@ order:10,
 enable:true
 },
 
-
+{
+key:"tg2",
+name:"🔞奶香香00000",
+type:"api",
+api:"https://lbapi9.com/api.php/provide/vod",
+order:2,
+enable:true
+},
 
   
   {
