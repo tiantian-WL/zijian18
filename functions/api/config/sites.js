@@ -17,8 +17,8 @@ export const sites = [
  },
 
 {
-key:"ddzy",
-name:"🔞滴滴",
+key:"xcaiji",
+name:"🔞X采集",
 type:"api",
 api:"https://www.jingpinx.com/api.php/provide/vod/at/xml",
 order:10,
