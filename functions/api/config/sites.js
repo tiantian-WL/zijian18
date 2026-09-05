@@ -20,7 +20,7 @@ export const sites = [
 key:"xcaiji23",
 name:"🔞X采集",
 type:"api",
-api:"https://www.jingpinx.com/api.php/provide/vod/at/xml",
+api:"https://www.jingpinx.com/api.php/provide/vod/?ac=list",
 order:100,
 enable:true
 },
